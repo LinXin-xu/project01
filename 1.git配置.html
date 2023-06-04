@@ -35,6 +35,18 @@
     // git reset HEAD 要移除的文件名称
     // 跳过使用暂存区（工作区-->git仓库）
     // git commit -a -m "描述信息"
+    // 移除文件
+    // 1. 只从git仓库中移除，工作区中保留
+    // git rm --cached index.css
+    // 2. 从git仓库中和工作区中同时移除
+    // git rm -f index.js
+    // 忽略文件 创建一个.gitignore(#注释 /结尾的是目录  /开头是防止递归  ！开头表示取反
+    // glob模式进行文件和文件夹的匹配--简化了的正则表达式)
+
+
+
+
+
 </script>
 </body>
 </html>
